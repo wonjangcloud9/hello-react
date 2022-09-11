@@ -1,8 +1,13 @@
-import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import Say from "./Say";
 
 function App() {
-  const name = "React";
-  return <MyComponent name={name} children="안니영" />;
+  return (
+    <>
+      <Counter />
+      <Say />
+    </>
+  );
 }
 
 export default App;
